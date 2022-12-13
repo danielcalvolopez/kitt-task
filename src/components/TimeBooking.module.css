@@ -4,27 +4,13 @@
   gap: 10px;
 }
 
-.container .wrapper {
+.container .input {
   display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-direction: row;
-  padding: 5px;
-  gap: 5px;
-}
-
-.container .labels {
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
-.container .inputs {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-label {
-  display: flex;
+input {
+  outline: none;
 }
