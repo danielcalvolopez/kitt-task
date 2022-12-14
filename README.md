@@ -1,10 +1,5 @@
 This task required to develop a feature to calculate the price of a room for a given period of time (in seconds) with four different tariffs.
 
-Price per minute: £2
-Price per hour: £22
-Price per day: £60
-Price per week: £105
-
 The pricing function should use the cheapest rate for given duration.
 
 To achieve this result, I have implemented 2 different functions that achieve the same result, one in a very simplified manner, and another one looking at the different tariffs breakpoints and conditionally calculating the final price.
