@@ -1,4 +1,4 @@
-This task required to develop a feature to calculate the price of a room for a given period of time (in seconds) with four different tariffs.
+This task required to develop a feature to calculate the price of a room for a given period of time (in minutes) with four different tariffs.
 
 The pricing function should use the cheapest rate for given duration.
 
