@@ -4,6 +4,7 @@ export const getBookingDurationPriceOption1 = (
   bookingDurationMinutes,
   currency
 ) => {
+  if (bookingDurationMinutes < 0) return 0;
   const hour = Math.ceil(bookingDurationMinutes / 60);
   const day = Math.ceil(bookingDurationMinutes / 1440);
   const week = Math.ceil(bookingDurationMinutes / 10080);
@@ -21,6 +22,7 @@ export const getBookingDurationPriceOption2 = (
   bookingDurationMinutes,
   currency
 ) => {
+  if (bookingDurationMinutes < 0) return 0;
   const hour = Math.ceil(bookingDurationMinutes / 60);
   const day = Math.ceil(bookingDurationMinutes / 1440);
   const week = Math.ceil(bookingDurationMinutes / 10080);

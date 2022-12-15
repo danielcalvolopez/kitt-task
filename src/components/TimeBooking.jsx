@@ -23,6 +23,7 @@ const TimeBooking = () => {
         <label>Booking Duration:</label>
         <input
           type="number"
+          min="0"
           placeholder="Enter minutes"
           value={bookingDurationMinutes}
           onChange={handleTimeInput}
