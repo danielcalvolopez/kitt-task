@@ -1,10 +1,11 @@
 import TimeBooking from "./components/TimeBooking";
 import "./App.css";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <div className="app">
-      <h1 className="title">Meeting Room Booking</h1>
+      <Header />
       <TimeBooking />
     </div>
   );
